@@ -1,2 +1,3 @@
->>>>>>> css-assignments
+<html>
+>>>>>>> js-assignments
 </html>
