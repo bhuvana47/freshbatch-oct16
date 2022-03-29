@@ -1,0 +1,25 @@
+<!d0ctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+<textarea name="Text1" cols="40" rows="6" id="inputbox"></textarea><br/>
+<button onClick="calc()">Submit</button>
+</body>
+</html>
+<script>
+function calc()
+{
+var inputboxval=document.getElementById("inputbox").value;
+var Charslength = inputboxval.length;
+var wordcount = countWords(inputboxval);
+var lines = inputboxval.split("n").length;
+alert("Number of characters"+Charslength+"\nnumber of words :"+wordcount+"\nnumber of lines"+lines)
+}
+function countWords(str)
+{
+return str.split(/\s+/).length;
+}
+</script>

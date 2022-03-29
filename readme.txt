@@ -1,3 +1,3 @@
-<html>
-<h1> changes made to redme.txt </h1>
+<hi>this is html-assignment</h1>
+>>>>>>> html-assignments
 </html>
